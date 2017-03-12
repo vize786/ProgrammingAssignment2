@@ -16,7 +16,7 @@ makeCacheMatrix<-function(x=matrix()){
        getinverse=getinverse)
 }
 
- ## cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix
+ ## cacheSolve: This function evaluates an invisible square matrix by going through the values within that matrix
 
  cacheSolve<-function(x,...){
    inverse<-x$getinverse()
